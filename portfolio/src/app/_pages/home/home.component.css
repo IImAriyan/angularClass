@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+.container {
+    width:950px;
+    height: 98vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 880px;
+    align-items: center;
+    height: 80px;
+}
+
+button.new-project {
+    width: 100px;
+    height: 30px;
+    font-family: 15px;
+    border-radius: 30px;
+    border:none;
+    background-color: blueviolet;
+    color: white;
+    transition: all 1s;
+}
+
+button.new-project:hover {
+    transition: all 1s;
+    background-color: rgb(105, 47, 160);
+    cursor: pointer;
+}
+.welcome > .text {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 10px;
+
+}
+
+
+
+.welcome > .name {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(94, 94, 94);
+
+}
+
+
+.amar-ha {
+    margin: auto;
+    width: 800px;
+}
+.nemodar {
+    width: 400px;
+    height: 230px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.circular-chart {
+	display: block;
+
+	max-width: 20%;
+	max-height: 100px;
+
+  }
+
+  .nemodar-ha {
+    width: 350px;
+    margin: auto;
+  }
+
+  text {
+	font-size: 12px;
+    color: green;
+    font-family: "Outfit";
+  }
+  .circle-1 {
+	stroke: yellow;
+	fill: none;
+	stroke-width: 2.3;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+  }
+
+  .asli-1 {
+	fill: none;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke: yellow;
+    stroke-opacity: 50%;
+	opacity: 50%;
+  }
+
+  .circle-2 {
+	stroke: blueviolet;
+	fill: none;
+	stroke-width: 2.3;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+  }
+
+  .asli-2 {
+	fill: none;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke: blueviolet;
+    stroke-opacity: 50%;
+	opacity: 50%;
+  }
+
+  .circle-2 {
+	stroke: blueviolet;
+	fill: none;
+	stroke-width: 2.3;
+	stroke-linecap: round;
+	animation: progress 1s ease-out forwards;
+  }
+
+  .asli-3,.asli-4 {
+	fill: none;
+	stroke-width:  1.8;
+	stroke-linecap: round;
+	stroke: rgba(45, 255, 3,255);
+    stroke-opacity: 50%;
+
+  }
+
+  .circle-3,.circle-4 {
+	fill: none;
+	stroke-width:  2.3;
+	stroke-linecap: round;
+	stroke: rgb(24, 151, 24);
+    animation: progress 1s ease-out forwards;
+
+
+  }
+  
+  @keyframes progress {
+	0% {
+	  stroke-dasharray: 0 100;
+	}
+  }
+
+
+.div-100 {
+	display: block;
+	margin: 10px auto;
+	max-width: 30%;
+	max-height: 100px;
+	border-radius: 50%;
+	border: 3.8px solid black;
+}
+.amar {
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid gray;
+}
+.amar-ha {
+    display: flex;
+}
+.text-1 {
+    font-size: 13px;
+    color: gray;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+.text-2 {
+    font-size: 10px;
+    color: gray;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+
+.textesh {
+    width:350px;
+    margin: auto;
+}
+
+
+.nemodaresh
+ {
+    display: flex;
+    gap: 20px;
+
+}
+circle {
+    stroke-opacity: 50%;
+    stroke: gray;
+    
+}
+
+
+.matn-ha{
+    display: flex;
+    font-family: "Noto Sans TC";
+    gap: 32px ;
+    font-size: 14px;
+}
+
+.matn {
+    margin: auto;
+}
+
+.sakhti-ha {
+    display: flex;
+    gap: 30px;
+}
+
+.sakhti {
+    width: 100px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 20px;
+    font-family: "Noto Sans TC";
+}
+
+.z {
+    background-color: rgb(255, 255, 190);
+    color: rgb(189, 189, 59);
+}
+.b {
+    background-color: rgba(137, 43, 226, 0.199);
+    color: blueviolet;
+}
+
+.g {
+    color: rgb(1, 97, 1);
+    background-color: rgba(93, 226, 93, 0.521);
+}
+
+text.gr {
+    color: rgb(6, 189, 6);
+
+}
+
+
+.menu {
+    display: flex;
+    width: 180px;
+    margin: auto;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+}
+
+
+.amarash {
+    width: 180px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.amarash > .text-title {
+    font-size: 15px;
+    font-family: "Radio Canada Big";
+    color:gray;
+}
+
+
+.amarseh {
+    width: 90px;
+    border-radius: 30px;
+    height: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.amari {
+    width: 35px;
+    height: 10px;
+    background-color: yellow;
+border-radius: 30px;
+
+}
+
+.amari-1 {
+    width: 50px;
+    height: 10px;
+    background-color: blueviolet;
+    border-radius: 30px;
+
+}
+
+.amari-2 {
+    width: 65px;
+    height: 10px;
+    background-color: rgb(14, 216, 7);
+    border-radius: 30px;
+}
+
+.amari-3 {
+    width: 75px;
+    height: 10px;
+    background-color: rgb(14, 216, 7);
+    border-radius: 30px;
+}
+
+.ok {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ok-ha {
+    display: flex;
+    width: 860px;
+    margin: auto;
+    gap: 10px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.mont {
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.prog {
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: white;
+
+
+}
+
+.dispe {
+    width: 230px;
+    height: 60px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-3 {
+    font-family: "Radio Canada Big";
+    font-family: 15px;
+    color: white;
+}
+
+.text-4 {
+    font-family: "Noto Sans TC";
+    font-size: 10px;
+    color: gainsboro;
+}
+.entkhab-konid {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.entkhab-konid:hover {
+    background-color: aliceblue;
+    transition: all 1s;
+}
+.text-5 {
+    color:blueviolet;
+    font-family: "Noto Sans TC";
+    font-size: 11px;
+
+}
+
+.text-s {
+    width: 230px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.text-6 {
+    font-size: 15px;
+    color: white;
+    font-family: "Noto Sans TC";
+}
+.text-7 {
+    font-size: 30px;
+    color: white;
+    font-family: "Noto Sans TC";
+}
+
+.tit {
+    font-size: 15px;
+    color: gray;
+    font-family: "Noto Sans TC";
+    font-weight: 100;
+}
+
+.tit-1 {
+    font-size: 10px;
+    color: gray;
+    font-family: "Noto Sans TC";
+
+}
+
+.text-sss {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pol {
+    width: 230px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    display: flex;
+        align-items: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+.text-ss {
+    display: flex;
+    height: 80px;
+    align-items: flex-end;
+}
+
+.nmd {
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.bz {
+    font-size: 25px;
+}
+
+.chats {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+
+::-webkit-scrollbar {
+border-top-right-radius: 15px;
+    width: 10px;
+    height: 0px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(174, 43, 226, 0.5);
+    opacity: 50%;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: blueviolet;
+  }
+.text-d {
+    width: 240px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.tit-d {
+    font-size: 17px;
+    color: gray;
+    font-family: "Noto Sans TC";
+    font-weight: 300;
+
+}
+
+.tit-dd {
+    font-size: 13px;
+    color: gray;
+    font-family: "Noto Sans TC";
+    text-align: center;
+
+}
+.chat-ha{
+    width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    gap: 15px;
+}
+
+.mahs {
+    opacity: 0;
+}
+.member {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: "Outfit";
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.363);
+}
+
+.name {
+    font-family: "Outfit";
+    font-size: 16px;
+    color: gray;
+}
+.rank {
+    font-family: "Noto Sans TC";
+    font-size: 13px;
+    color: gray;
+}
+
+.ete {
+    display: flex;
+    gap: 10px;
+}
+
+.vaziyat {
+    font-family: "Noto Sans TC";
+    font-size: 13px;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}    
+
+.on {
+    background-color: rgba(0, 255, 0, 0.247);
+    color: rgb(0, 255, 0);
+}
+
+.of {
+    background-color: yellow;
+    color: orange;
+}
+
+
+.taghi {
+    width: 280px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    border-right: 1px solid gray;
+}
+
+.taghimesh {
+    width: 280px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    border-left: 1px solid gray;
+}
+
+
+
+.div {
+    display: flex;
+}
+
+
+
+.member-1 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rank-s {
+    font-family: "Noto Sans TC";
+    font-size: 13px;
+    gap: 9px;
+    display: flex;
+    color: gray;
+}
+
+
+.taghvim-f {
+    display: flex;
+    gap: 2px;
+}
+
+.cancel {
+    font-family: "Noto Sans TC";
+    font-size: 13px;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    font-family: "Noto Sans TC";
+    font-size: 13px;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border: 1px solid red;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.t {
+    display: flex;
+    width: 220px;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chap {
+    transform: rotate(180deg);
+}
+.sal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gonde {
+    font-size: 15px;
+    color: gray;
+}
+
+.kochak {
+    font-size: 10px;
+    color: gray;
+}
+
+.mah-ha {
+    display: flex;
+    width: 220px;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fob {
+    font-weight: 600;
+}
+
+.ye-mah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.mah {
+    font-size: 12px;
+}
+
+.active {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 0, 0.411);
+}
