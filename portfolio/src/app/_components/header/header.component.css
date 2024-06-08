@@ -1,75 +1,25 @@
-.header {
-    height: 98vh;
-    width: 65px;
-    background-color: blueviolet;
+header {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+
+    background-color: black;
+    border-bottom: solid 1px white;
+    animation: progress ease-out forwards;
+}
+
+header button {
+    background-color: transparent;
     color: white;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
-}
-
-button.header-button {
-    width: 40px;
-    height: 40px;
+    font-family: sans-serif;
+    outline: none;
     border: none;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background:transparent;
 }
 
-button.active{
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    background-color: whitesmoke;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-button.active i {
-    color: blueviolet;
-}
-
-i {
-    font-size: 20px;
-    background: transparent;
-    color: white;
-}
-.flex {
-    display: flex;
-
-}
-
-.flow-column{
-    flex-flow: column;
-}
-
-.radius {
-    border-radius: 40px;
-}
-
-.justify-between  {
-    justify-content: space-between;
-}
-
-.align-item {
-    align-items: center;
-}
-
-
-.gap {
-    gap: 30px;
-}
-
-.avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+@keyframes progress {
+    0% {
+        border-bottom: 0;
+    }
 }
