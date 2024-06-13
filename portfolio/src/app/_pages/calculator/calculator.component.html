@@ -1,7 +1,7 @@
 <main class="">
     <section class="">
         <div class="calculator-header">
-            <h3>{{firstArgument}} {{operation}} {{secondArgument}} {{equal}} {{result}}</h3>
+            <h3>{{firstArgument}} {{operation}} {{secondArgument}} <span *ngIf="result">=</span> {{result}}</h3>
         </div>
         <div class="w-full flex grow">
             <div class="flex flex-col">

@@ -1,13 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-calculator',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './calculator.component.html',
   styleUrl: './calculator.component.css'
 })
 export class CalculatorComponent {
+  
   firstArgument: number | undefined
   secondArgument: number | undefined
   equal: string | undefined
@@ -32,21 +34,25 @@ export class CalculatorComponent {
     this.equal = undefined;
     this.result = undefined;
   }
+
   selectEqual() {
-    if (this.secondArgument != undefined && this.firstArgument != undefined && this.operation != undefined) {
-      this.equal = "=";
-      if (this.operation == "+") {
-        this.result = this.firstArgument + this.secondArgument;
-      }
-      if (this.operation == "-") {
-        this.result = this.firstArgument - this.secondArgument;
-      }
-      if (this.operation == "/") {
-        this.result = this.firstArgument / this.secondArgument;
-      }
-      if (this.operation == "*") {
-        this.result = this.firstArgument * this.secondArgument;
-      }
+    switch(this.operation) {
+      case '+': 
+      this.result = this.firstArgument! + this.secondArgument!
+   
+      return
+      case '-' :
+        this.result = this.firstArgument! - this.secondArgument!
+    
+        return
+      case '*' :
+        this.result = this.firstArgument! * this.secondArgument!
+           
+        return
+      case '/' :
+      this.result = this.firstArgument! / this.secondArgument!
+          
+        return
     }
   }    
   
