@@ -163,9 +163,11 @@ body {
 .hover-bg-purple:hover {
     background: purple;
 }
-.focus-transition:focus  {
-    transition: all 0.6s;
+
+.hover-text-white:hover {
+    color: white;
 }
+
 .focus-out-none:focus {
     outline: none;
 }
@@ -173,7 +175,7 @@ body {
 
 
 .focus-border-p:focus  {
-    border: 0.12rem solid purple;
+    border: 0.18rem solid purple;
 }
 
 .focus-bg-wm:focus {
@@ -193,3 +195,8 @@ textarea {
     resize: vertical;
 }
 
+
+
+/* 
+
+*/
