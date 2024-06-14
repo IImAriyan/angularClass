@@ -4,7 +4,9 @@ header {
     align-items: center;
     font-family: sans-serif;
     display: flex;
-
+    position: sticky;
+    top: 0;
+    z-index: 10;
     background-color: black;
     border-bottom: solid 1px white;
     animation: progress ease-out forwards;
