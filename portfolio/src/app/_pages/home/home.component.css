@@ -19,3 +19,22 @@
     background-color: gray;
     
 }
+
+@media (max-width:768px) {
+    section {
+        flex-flow: column;
+        height: auto;
+    }
+    .itm {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itm:first-child {
+        order: 2;
+    }
+    .itm:last-child {
+        order: -1;
+    }
+}
